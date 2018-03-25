@@ -1,13 +1,16 @@
 ---
 layout: blog
-banana: true
+ransebu: true
 category: 染色布
 title:  待定
 date:   2018-03-24 10:06:42
-background-image: http://ot1cc1u9t.bkt.clouddn.com/17-8-1/24280498.jpg
+background-image: http://file.youboy.com/a/93/38/65/9/8560849.jpg
 tags:
-- 123
-- 321
+- 205幅宽
+- 225幅宽
+- 军绿布
+- 烤蓝布
+- 漂白布
 ---
 #  简介
 
