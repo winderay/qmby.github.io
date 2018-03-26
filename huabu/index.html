@@ -1,13 +1,13 @@
 ---
 title: 花布分类
-description: "桃皮、北京、天津、亲肤绒、晶绒"
+description: "桃皮，北京天津，晶绒，亲肤绒"
 ---
 
 <div class="main-content index-page clearfix ">
 	<div class="post-lists">
 		<div class="post-lists-body">
 	  {% for posts in site.posts %}
-	   {% if posts.huabu%}
+	  	   {% if posts.huabu%}
 		<div class="post-list-item">
 				<div class="post-list-item-container">
 					 <div class="item-thumb  bg-{{posts.background }}" style="background-image:url('{{posts.background-image }}');"></div>
@@ -21,10 +21,10 @@ description: "桃皮、北京、天津、亲肤绒、晶绒"
 					<div class="item-label">
 						<div class="item-title"><a href="{{ posts.url }}">{{ posts.title }}</a></div>
 						<div class="item-meta clearfix">
-						<div class="item-meta-ico bg-ico-huabu" style="background: url('../style/images/bg-ico.png') no-repeat;background-size: 40px auto;"></div>
-              <div class="item-meta-cat">
-				 <a href="category/thoughts/index.html" title="访问 {{  posts.category }}"  data-hover="{{ posts.category }}">{{ posts.category }}</a>
-				 <a href="category/thoughts/index.html" title="访问 {{ posts.date | date: "%Y"}}" data-hover="{{ posts.date | date: "%F %H:%M:%S "}}">{{ posts.date | date: "%F %H:%M:%S "}}</a></div>
+						<div class="item-meta-ico bg-ico-book" style="background: url('../style/images/bg-ico.png') no-repeat;background-size: 40px auto;"></div>
+             <div class="item-meta-cat">
+				 <a href="category/thoughts/index.html">{{ posts.category }}</a>
+				 <a href="category/thoughts/index.html">{{ posts.date | date: "%F %H:%M:%S "}}</a></div>
 						</div>
 					</div>
 				</div>
